@@ -1,7 +1,7 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import React, {useEffect} from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {SafeAreaView} from 'react-native';
 import 'react-native-gesture-handler';
 import 'react-native-reanimated';
 import {QueryClient, QueryClientProvider} from 'react-query';
@@ -54,7 +54,8 @@ const App = () => {
               ModalInterchange.next({visible: false});
             }}
             data={data.data}
-            title={data.title || ''}></Modal>
+            title={data.title || ''}
+          />
         )}
       </QueryClientProvider>
     </SafeAreaView>
