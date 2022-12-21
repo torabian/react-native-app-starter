@@ -5,7 +5,6 @@ import {Switch, Text, View} from 'react-native';
 import colors from '~/src/constants/colors';
 
 import {BasicUserAuthForm} from '~/src/interfaces/Auth';
-import {FormSwitch} from '../../components/form-switch/FormSwitch';
 
 export function useRememberingLoginForm(
   formik: React.MutableRefObject<

@@ -58,9 +58,15 @@ class BooksInteractionPoolClass
 
     for (let item of dataSet) {
       // @meta(metaFiltering,type:string,target:title)
-      if (inlineFiltering.STRING(params, item, 'title')) continue;
-      if (inlineFiltering.STRING(params, item, 'author')) continue;
-      if (inlineFiltering.BOOLEAN(params, item, 'underAgeAccess')) continue;
+      if (inlineFiltering.STRING(params, item, 'title')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'author')) {
+        continue;
+      }
+      if (inlineFiltering.BOOLEAN(params, item, 'underAgeAccess')) {
+        continue;
+      }
       // @meta(end)
 
       result.push(item);

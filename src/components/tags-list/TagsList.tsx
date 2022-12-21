@@ -1,5 +1,5 @@
 import React from 'react';
-import {Platform, ScrollView, StyleSheet, ViewStyle} from 'react-native';
+import {ScrollView, StyleSheet, ViewStyle} from 'react-native';
 import {ListItem} from '~/src/interfaces/UI';
 import {FormButton} from '../form-button/FormButton';
 

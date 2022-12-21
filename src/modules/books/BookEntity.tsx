@@ -73,7 +73,9 @@ export const BookEntity = ({
     <View style={styles.wrapper}>
       <Formik
         innerRef={p => {
-          if (p) formik.current = p;
+          if (p) {
+            formik.current = p;
+          }
         }}
         validationSchema={BookEntityValidator}
         initialValues={BookDto.Empty}

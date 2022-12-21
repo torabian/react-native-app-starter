@@ -54,7 +54,9 @@ export const Signin = () => {
     <CommonScrollForm title={'Sign-in to \nyour account'}>
       <Formik
         innerRef={p => {
-          if (p) formik.current = p;
+          if (p) {
+            formik.current = p;
+          }
         }}
         initialValues={initialValues}
         onSubmit={onSubmit}>

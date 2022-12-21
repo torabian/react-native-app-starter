@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import {
   Animated,
   Clipboard,
@@ -9,13 +9,7 @@ import {
   View,
   ViewStyle,
 } from 'react-native';
-import MapView, {
-  LatLng,
-  Marker,
-  Polygon,
-  PROVIDER_GOOGLE,
-  Region,
-} from 'react-native-maps';
+import MapView, {LatLng, Marker, Polygon, Region} from 'react-native-maps';
 import Pin from '~/src/assets/icons/pin.svg';
 import colors from '~/src/constants/colors';
 

@@ -1,6 +1,5 @@
 import {Formik, FormikHelpers, FormikProps} from 'formik';
 import React, {useEffect, useRef} from 'react';
-
 import {StyleSheet, View} from 'react-native';
 import {useMutation, useQueryClient} from 'react-query';
 import {FormButton} from '~/src/components/form-button/FormButton';
@@ -73,7 +72,9 @@ export const CarEntity = ({
     <View style={styles.wrapper}>
       <Formik
         innerRef={p => {
-          if (p) formik.current = p;
+          if (p) {
+            formik.current = p;
+          }
         }}
         validationSchema={CarEntityValidator}
         initialValues={CarDto.Empty}

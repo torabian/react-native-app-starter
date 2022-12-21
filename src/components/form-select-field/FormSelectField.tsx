@@ -1,5 +1,5 @@
-import React, {useCallback, useRef, useState} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import React, {useCallback, useRef} from 'react';
+import {Platform, StyleSheet} from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 
 import colors from '~/src/constants/colors';

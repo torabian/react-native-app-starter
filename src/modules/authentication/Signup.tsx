@@ -52,7 +52,9 @@ export const Signup = () => {
     <CommonScrollForm title={'Create your account'}>
       <Formik
         innerRef={p => {
-          if (p) formik.current = p;
+          if (p) {
+            formik.current = p;
+          }
         }}
         initialValues={initialValues}
         onSubmit={onSubmit}>

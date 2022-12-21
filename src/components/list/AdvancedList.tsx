@@ -1,13 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-import {
-  Alert,
-  FlatList,
-  RefreshControl,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import {Alert, FlatList, RefreshControl, StyleSheet, View} from 'react-native';
 import {useQuery} from 'react-query';
 import {CommonFlatListEmptyComponent} from '~/src/components/list/CommonFlatListEmptyComponent';
 import {useListFiltering} from '~/src/components/list/ListFilteringCommon';

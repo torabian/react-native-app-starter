@@ -1,6 +1,6 @@
 import {useNavigation} from '@react-navigation/native';
 import React from 'react';
-import {GestureResponderEvent, StyleSheet, Text, View} from 'react-native';
+import {GestureResponderEvent, StyleSheet} from 'react-native';
 import {Card} from '~/src/components/card/Card';
 import {DefaultCardLoader} from '~/src/components/list/DefaultCardLoader';
 import {RowValue} from '~/src/components/row-value/RowValue';

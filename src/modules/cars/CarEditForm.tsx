@@ -1,11 +1,6 @@
 import {FormikProps} from 'formik';
 import React from 'react';
-import {FormDate} from '~/src/components/form-date/FormDate';
-import {FormSelectField} from '~/src/components/form-select-field/FormSelectField';
-import {FormSwitch} from '~/src/components/form-switch/FormSwitch';
-
 import {FormText} from '~/src/components/form-text/FormText';
-import {colorsList} from '~/src/helpers/mockLists';
 import {CarDto} from './CarDto';
 
 export const CarEditForm = ({form}: {form: FormikProps<CarDto.DTO>}) => {

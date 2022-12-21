@@ -1,6 +1,5 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {
-  Alert,
   Animated,
   Easing,
   Platform,
@@ -98,7 +97,9 @@ export const BaseFormElement = ({
   );
 
   const onDiscard = () => {
-    if (onChange) onChange(null);
+    if (onChange) {
+      onChange(null);
+    }
   };
 
   const liftLabel =

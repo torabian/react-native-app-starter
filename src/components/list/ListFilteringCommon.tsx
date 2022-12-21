@@ -3,8 +3,6 @@ import React, {useState} from 'react';
 import {ScrollView, StyleSheet, TouchableOpacity, View} from 'react-native';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import FilterIcon from '~/src/assets/icons/filter-icon.svg';
-import colors from '~/src/constants/colors';
-import t from '~/src/constants/t';
 import {ListItem} from '~/src/interfaces/UI';
 import {FormButton} from '../form-button/FormButton';
 import {openDialg} from '../modal/Modal';

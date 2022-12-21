@@ -8,10 +8,8 @@ import {BooksListScreen} from '~/src/modules/books/BooksListScreen';
 import {Home} from '~/src/modules/home/Home';
 import {StorybooksScreen} from '~/src/modules/Storybooks/StorybooksScreen';
 import {Screens} from '~/src/stacks/Screens';
-
 import AboutScreen from '~/src/modules/about/AboutScreen';
 import {UserSettingsScreen} from '~/src/modules/user-settings/UserSettingsScreen';
-
 import {CarsListScreen} from '~/src/modules/cars/CarsListScreen';
 import {CarSingleScreen} from '~/src/modules/cars/CarSingleScreen';
 import {CarFormScreen} from '~/src/modules/cars/CarFormScreen';

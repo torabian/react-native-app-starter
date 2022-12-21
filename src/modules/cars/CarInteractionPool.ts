@@ -57,15 +57,33 @@ class CarsInteractionPoolClass
     const result: CarDto.DTO[] = [];
 
     for (let item of dataSet) {
-      if (inlineFiltering.STRING(params, item, 'name')) continue;
-      if (inlineFiltering.STRING(params, item, 'miles_per_gallon')) continue;
-      if (inlineFiltering.NUMBER(params, item, 'cylinders')) continue;
-      if (inlineFiltering.STRING(params, item, 'displacement')) continue;
-      if (inlineFiltering.STRING(params, item, 'horsepower')) continue;
-      if (inlineFiltering.STRING(params, item, 'weight_in_lbs')) continue;
-      if (inlineFiltering.STRING(params, item, 'acceleration')) continue;
-      if (inlineFiltering.STRING(params, item, 'year')) continue;
-      if (inlineFiltering.STRING(params, item, 'origin')) continue;
+      if (inlineFiltering.STRING(params, item, 'name')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'miles_per_gallon')) {
+        continue;
+      }
+      if (inlineFiltering.NUMBER(params, item, 'cylinders')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'displacement')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'horsepower')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'weight_in_lbs')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'acceleration')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'year')) {
+        continue;
+      }
+      if (inlineFiltering.STRING(params, item, 'origin')) {
+        continue;
+      }
 
       result.push(item);
     }

@@ -5,7 +5,6 @@ import {
   View,
   Modal as RNModal,
   Dimensions,
-  ScrollView,
 } from 'react-native';
 import React from 'react';
 import CrossIcon from '~/src/assets/icons/cross.svg';

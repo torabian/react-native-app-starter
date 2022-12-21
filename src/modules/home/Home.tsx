@@ -1,7 +1,6 @@
-import {useNavigation} from '@react-navigation/native';
 import React from 'react';
-
 import {ScrollView, StyleSheet, Text, Button} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 import {resetSession} from '~/src/helpers/token';
 import {useRxjs} from '~/src/hooks/useRxjs';
 import {store} from '~/src/store/Store';

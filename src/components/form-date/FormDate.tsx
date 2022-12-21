@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import DatePickerModal from 'react-native-date-picker';
 import moment from 'moment';
 import {

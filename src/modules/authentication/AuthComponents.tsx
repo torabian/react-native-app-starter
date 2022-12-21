@@ -33,7 +33,9 @@ export const CommonScrollForm = ({
     <KeyboardAwareScrollView
       scrollsToTop
       ref={ref => {
-        if (ref) scrollView.current = ref;
+        if (ref) {
+          scrollView.current = ref;
+        }
       }}
       keyboardShouldPersistTaps="always"
       style={styles.wrapper}
@@ -109,7 +111,8 @@ export const AuthHeader = ({title}: {title: string}) => {
       </View>
       <StatusBar
         backgroundColor={colors.primaryColor}
-        barStyle={'light-content'}></StatusBar>
+        barStyle={'light-content'}
+      />
     </>
   );
 };

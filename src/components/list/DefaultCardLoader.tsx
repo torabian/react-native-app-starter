@@ -2,7 +2,6 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import SkeletonPlaceholder from 'react-native-skeleton-placeholder';
 
-import colors from '~/src/constants/colors';
 import {Card} from '../card/Card';
 
 export const DefaultCardLoader = ({showAddress}: {showAddress?: boolean}) => {

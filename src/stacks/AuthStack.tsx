@@ -1,5 +1,5 @@
-import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
+import {createStackNavigator} from '@react-navigation/stack';
 import {ForgotPassword} from '~/src/modules/authentication/ForgotPassword';
 import {ResetPassword} from '~/src/modules/authentication/ResetPassword';
 import {Signin} from '~/src/modules/authentication/Signin';

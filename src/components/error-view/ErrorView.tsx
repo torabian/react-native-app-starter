@@ -1,4 +1,3 @@
-import {FormikErrors} from 'formik';
 import React from 'react';
 import {StyleSheet, Text, View, ViewStyle} from 'react-native';
 import colors from '~/src/constants/colors';
