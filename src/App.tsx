@@ -11,6 +11,7 @@ import {AppDrawer} from './stacks/AppStack';
 import {Modal, ModalInterchange} from './components/modal/Modal';
 import {useRxjs} from './hooks/useRxjs';
 import {getSession, setSession} from './helpers/token';
+import {ThemeProvider} from './hooks/useTheme';
 
 const Root = createStackNavigator();
 const queryClient = new QueryClient();
@@ -30,35 +31,37 @@ const App = () => {
   }, []);
 
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: colors.primaryColor}}>
-      <QueryClientProvider client={queryClient}>
-        <NavigationContainer>
-          <Root.Navigator initialRouteName="app">
-            <Root.Screen
-              name="app"
-              component={AppDrawer}
-              options={{headerShown: false}}
+    <ThemeProvider>
+      <SafeAreaView style={{flex: 1, backgroundColor: colors.primaryColor}}>
+        <QueryClientProvider client={queryClient}>
+          <NavigationContainer>
+            <Root.Navigator initialRouteName="app">
+              <Root.Screen
+                name="app"
+                component={AppDrawer}
+                options={{headerShown: false}}
+              />
+              <Root.Screen
+                name="auth"
+                component={AuthStack}
+                options={{headerShown: false}}
+              />
+            </Root.Navigator>
+          </NavigationContainer>
+          {data && (
+            <Modal
+              Body={data.Component}
+              isVisible={data?.visible || false}
+              onClose={() => {
+                ModalInterchange.next({visible: false});
+              }}
+              data={data.data}
+              title={data.title || ''}
             />
-            <Root.Screen
-              name="auth"
-              component={AuthStack}
-              options={{headerShown: false}}
-            />
-          </Root.Navigator>
-        </NavigationContainer>
-        {data && (
-          <Modal
-            Body={data.Component}
-            isVisible={data?.visible || false}
-            onClose={() => {
-              ModalInterchange.next({visible: false});
-            }}
-            data={data.data}
-            title={data.title || ''}
-          />
-        )}
-      </QueryClientProvider>
-    </SafeAreaView>
+          )}
+        </QueryClientProvider>
+      </SafeAreaView>
+    </ThemeProvider>
   );
 };
 
