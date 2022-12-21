@@ -317,7 +317,7 @@ PODS:
     - React-Core
   - react-native-encrypted-storage (4.0.3):
     - React-Core
-  - react-native-image-picker (4.10.2):
+  - react-native-image-picker (4.10.3):
     - React-Core
   - react-native-maps (1.3.2):
     - React-Core
@@ -331,32 +331,32 @@ PODS:
     - RCTTypeSafety
     - React-Core
     - ReactCommon/turbomodule/core
-  - react-native-skia (0.1.164):
+  - react-native-skia (0.1.166):
     - React
     - React-callinvoker
     - React-Core
-    - react-native-skia/Api (= 0.1.164)
-    - react-native-skia/Jsi (= 0.1.164)
-    - react-native-skia/RNSkia (= 0.1.164)
-    - react-native-skia/SkiaHeaders (= 0.1.164)
-    - react-native-skia/Utils (= 0.1.164)
-  - react-native-skia/Api (0.1.164):
+    - react-native-skia/Api (= 0.1.166)
+    - react-native-skia/Jsi (= 0.1.166)
+    - react-native-skia/RNSkia (= 0.1.166)
+    - react-native-skia/SkiaHeaders (= 0.1.166)
+    - react-native-skia/Utils (= 0.1.166)
+  - react-native-skia/Api (0.1.166):
     - React
     - React-callinvoker
     - React-Core
-  - react-native-skia/Jsi (0.1.164):
+  - react-native-skia/Jsi (0.1.166):
     - React
     - React-callinvoker
     - React-Core
-  - react-native-skia/RNSkia (0.1.164):
+  - react-native-skia/RNSkia (0.1.166):
     - React
     - React-callinvoker
     - React-Core
-  - react-native-skia/SkiaHeaders (0.1.164):
+  - react-native-skia/SkiaHeaders (0.1.166):
     - React
     - React-callinvoker
     - React-Core
-  - react-native-skia/Utils (0.1.164):
+  - react-native-skia/Utils (0.1.166):
     - React
     - React-callinvoker
     - React-Core
@@ -738,12 +738,12 @@ SPEC CHECKSUMS:
   react-native-date-picker: 93e43b3084cea595b4d68b1405d6d99849663bd6
   react-native-document-picker: 958e2bc82e128be69055be261aeac8d872c8d34c
   react-native-encrypted-storage: db300a3f2f0aba1e818417c1c0a6be549038deb7
-  react-native-image-picker: bf34f3f516d139ed3e24c5f5a381a91819e349ea
+  react-native-image-picker: 60f4246eb5bb7187fc15638a8c1f13abd3820695
   react-native-maps: 085f614cf14d3637b2048bb9752da5b1c27c2886
   react-native-pdf: 33c622cbdf776a649929e8b9d1ce2d313347c4fa
   react-native-pdf-thumbnail: 047cbe5ef02eb0fef97bfc9a0e8c6b01927da0c1
   react-native-safe-area-context: 99b24a0c5acd0d5dcac2b1a7f18c49ea317be99a
-  react-native-skia: 39e666345240784da1312f7e313bc80c0e81e378
+  react-native-skia: 6362ec5306b5d3d69b8babb7a6439589e1a00ab8
   React-perflogger: 8c79399b0500a30ee8152d0f9f11beae7fc36595
   React-RCTActionSheet: 7316773acabb374642b926c19aef1c115df5c466
   React-RCTAnimation: 5341e288375451297057391227f691d9b2326c3d
@@ -762,7 +762,7 @@ SPEC CHECKSUMS:
   RNCPicker: 0bf8ef8f7800524f32d2bb2a8bcadd53eda0ecd1
   RNFS: 4ac0f0ea233904cb798630b3c077808c06931688
   RNGestureHandler: 62232ba8f562f7dea5ba1b3383494eb5bf97a4d3
-  RNReanimated: f0d2c3c819b4130a084e21b168ed25395dde6fcc
+  RNReanimated: 57dc69bd8b3d7ab514fd3983e47b5e801bd367a6
   RNScreens: 34cc502acf1b916c582c60003dc3089fa01dc66d
   RNShare: a5dc3b9c53ddc73e155b8cd9a94c70c91913c43c
   RNSVG: 6adc5c52d2488a476248413064b7f2832e639057
