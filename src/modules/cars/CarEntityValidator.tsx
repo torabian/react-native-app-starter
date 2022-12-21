@@ -4,9 +4,9 @@ import {CarFilterValidator} from './CarFilterValidator';
 
 export const CarEntityValidator = CarFilterValidator.clone().concat(
   Yup.object({
-    name: Yup.string().required(t.formValidation.fieldNeccessary),
-    miles_per_gallon: Yup.string().required(t.formValidation.fieldNeccessary),
-    cylinders: Yup.number().required(t.formValidation.fieldNeccessary),
-    displacement: Yup.string().required(t.formValidation.fieldNeccessary),
+    name: Yup.string().required(t.formValidation.fieldNecessary),
+    miles_per_gallon: Yup.string().required(t.formValidation.fieldNecessary),
+    cylinders: Yup.number().required(t.formValidation.fieldNecessary),
+    displacement: Yup.string().required(t.formValidation.fieldNecessary),
   }),
 );

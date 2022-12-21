@@ -95,7 +95,7 @@ export const Signup = () => {
                 onPress={() => {
                   navigation.navigate('auth', {screen: Screens.Signin});
                 }}
-                label={t.signinInstead}
+                label={t.signInInstead}
               />
             </>
           );

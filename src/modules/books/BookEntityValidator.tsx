@@ -5,7 +5,7 @@ import {BookFilterValidator} from './BookFilterValidator';
 export const BookEntityValidator = BookFilterValidator.clone().concat(
   // @meta(entityvalidator)
   Yup.object({
-    title: Yup.string().required(t.formValidation.fieldNeccessary),
-    country: Yup.string().required(t.formValidation.fieldNeccessary),
+    title: Yup.string().required(t.formValidation.fieldNecessary),
+    country: Yup.string().required(t.formValidation.fieldNecessary),
   }),
 );

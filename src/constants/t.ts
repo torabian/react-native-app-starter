@@ -12,12 +12,12 @@ export default {
   firstTime: 'First time using our app?',
   alreadyHaveAccount: 'Already having an account?',
   save: 'Save',
-  signinInstead: 'Sign-in instead',
+  signInInstead: 'Sign-in instead',
   flatListCommon: {
     empty: 'You have no items here :(',
   },
   formValidation: {
-    fieldNeccessary: 'Field is necessary',
+    fieldNecessary: 'Field is necessary',
   },
   about: {
     title: 'About',
